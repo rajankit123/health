@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    background-color: rgba(255, 255, 0, 0.863);
+    border-radius: 5px;
+    padding: 5px ;
+}
+ button:hover{
+    background-color: rgba(0, 0, 255, 0.386);
+    color: white;
+}
+
+button a{
+    text-decoration: none;
+    color: red;
+}
+button a:hover{
+    color: white;
+}
+
+.price{
+    height: 100px;
+    background-color: rgba(244, 139, 10, 0.747);
+    box-shadow: 2px 2px 5px red;
+}
+.price caption{
+    text-align: center;
+    color: rgb(65, 39, 3);
+    padding-bottom: 5%;
+    font-weight: 800;
+    
+}
+.price table{
+    width: 100%;
+}
+.item{
+    background-color: rgba(0, 255, 85, 0.331);
+}
+.h{
+    /* for header of the table */
+    background-color: chocolate;
+    color: rgb(73, 46, 54);
+    font-weight: 800;
+}
+.b{
+    background-color: pink;
+    font-weight: 600;
+}

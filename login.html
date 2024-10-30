@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="/css/loginstyle.css">
+    <link src="/JS/login.js" type="javascript">
+    <style>
+     body{
+        margin: 0;
+        padding: 0;
+        background-image: url("img/login.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+     }
+    </style> 
+</head>
+<body>
+    <button><a href="index.html">Previous</a></button>
+    <div class="loginbox">
+        <h1>Login Here</h1>
+        <form name="f1" action="http://localhost/myfiles/login.php" method="POST" onsubmit="return validation()">
+            <div>
+            <p>Username</p>
+            <input type="text" id="user" name="user" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" id="pass" name="pass" placeholder="Enter Password">
+            <!-- <input type="submit" id="submit" name="submit" value="Login"> -->
+            <input type="submit" value="login">
+            <a href="register.html">Don't have an account?</a>
+            </div>
+        </form>
+     </div>
+     <script>  
+        function validation()  
+        {  
+            var id=document.f1.user.value;  
+            var ps=document.f1.pass.value;  
+            if(id.length=="" && ps.length=="") {  
+                alert("User Name and Password fields are empty");  
+                return false;  
+            }  
+            else  
+            {  
+                if(id.length=="") {  
+                    alert("User Name is empty");  
+                    return false;  
+                }   
+                if (ps.length=="") {  
+                alert("Password field is empty");  
+                return false;  
+                }  
+            }                             
+        }  
+    </script>  
+</body> 
+</html>

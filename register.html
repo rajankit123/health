@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Tab</title>
+    <link rel="stylesheet" href="/css/register.css">
+    <link src="/JS/regist.js" type="javascript">
+</head>
+
+<body>
+    <div class="container">
+        <button><a href="login.html">Previous</a></button>
+        <div><a href="#register-btn">Get registered</a></div>
+    </div>
+    <div class="container1">
+    <div id="register-btn">
+        <form id="reg" action="connect.php" method="post">
+            <!-- <div class="formerror" id="name"> -->
+            <h2>Register Here</h2><br>
+            <label>First Name : </label><br>
+            <input type="text" name="fname" id="name" placeholder="Enter Your First Name" required><br><br>
+            <label>Last Name : </label><br>
+            <input type="text" name="lname" id="name" placeholder="Enter Your Last Name"><br><br>
+            <label>Your Age : </label><br>
+            <input type="number" name="age" id="name" placeholder="How old are you?" required><br><br>
+            <label>Date of Birth : </label><br>
+            <input type="date" name="dob" id="name" required><br><br>
+            <label>Email Id : </label><br>
+            <input type="email" name="email" id="name" placeholder="Enter your valid email." required><br><br>
+            <label>Gender : </label><br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="male" value="M" required>&nbsp;
+            <span id="male">Male</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="female" value="F" required>&nbsp;
+            <span id="female">Female</span><br><br>
+            <input type="radio" name="gender" id="Others" value="O" required>&nbsp;
+            <span id="Others">Others</span><br><br>
+            <label>Contact :</label><br>
+            <input type="text" name="contact" id="name" placeholder="Enter your contact" required><br><br>
+            <label>Known Language :</label><br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="lang" id="hindi">&nbsp;
+            <span id="hindi">Hindi</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="lang" id="english">&nbsp;
+            <span id="english">English</span>&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+            <label>Username : </label><br>
+            <input type="text" name="uname" id="name" placeholder="Enter Your User Name" required><br><br>
+            <label>Password : </label><br>
+            <input type="password" name="password" id="name" placeholder="Enter Your Password" required><br><br>
+            <label>Confirm password : </label><br>
+            <input type="text" name="cpassword" id="name" placeholder="Confirm password" required><br><br>
+            <label>city :</label><br>
+            <input type="text" name="city" id="name" placeholder="Enter your city"><br><br>
+            <label>state :</label><br>
+            <input type="text" name="state" id="name" placeholder="Enter your state"><br><br>
+            <label>country :</label><br>
+            <input type="text" name="country" id="name" placeholder="Enter your country"><br><br>
+            <input type="submit" name="submit" id="submit" value="submit"><br><br>
+        </form>
+    </div><!-- register div closed -->
+    </div> <!-- container div close -->
+    <!-- <script>  
+        function validation()  
+        {  
+            var id=document.f1.user.value;  
+            var ps=document.f1.pass.value;  
+            if(id.length=="" && ps.length=="") {  
+                alert("User Name and Password fields are empty");  
+                return false;  
+            }  
+            else  
+            {  
+                if(id.length=="") {  
+                    alert("User Name is empty");  
+                    return false;  
+                }   
+                if (ps.length=="") {  
+                alert("Password field is empty");  
+                return false;  
+                }  
+            }                             
+        }  
+    </script>-->
+
+</body>
+
+</html>

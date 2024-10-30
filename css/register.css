@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url("/img/register.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    min-height: 600px;
+}
+
+.container div{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: rgba(40, 6, 78, 0.643);
+    font-size: 50px;
+    border: 2px solid rgb(152, 152, 251);
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+.container div a{
+    text-decoration: none;
+    color: rgb(238, 72, 72);
+}
+
+.container :hover{
+    padding: 0px;
+    color: rgb(241, 238, 238);
+    background-color: rgb(6, 6, 76);
+}
+.container1{
+    background-image: url(/img/doctor\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    width: 100%; 
+}
+.container1 img{
+    min-height: 600px;
+}
+
+#register-btn form{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    font-size: 20px;
+    margin-left: 25%;
+    padding: 5px 5px;
+    margin-top: 15px;
+    margin-bottom: 5%;
+    box-shadow: 2px 2px 15px rgba(253, 3, 3, 0.76);
+}
+#reg input,label{
+    margin-left: 40px;
+}
+
+#name{
+    width: 300px;
+    border: 1px solid rgba(243, 181, 81, 0.656);
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgb(0, 0, 0, 0.3);
+}
+#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: red;
+    color: #0c0c0c;
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.3);
+}
+#submit:hover{
+    color: rgb(236, 236, 244);
+    background-color: rgba(245, 96, 96, 0.509);
+}
+
+label,span,h2{
+    text-shadow: 1px 1px 5px rgb(248, 33, 33);
+    color: rgb(249, 247, 247);
+}
+h2{
+    color: aquamarine;
+    text-align: center;
+    padding: 20px;
+    font-weight: 100%;
+    background-color: rgb(82, 98, 49);
+    border-radius: 5px;
+}
+.container button{
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 5px ;
+}
+.container button:hover{
+    background-color: rgba(0, 0, 255, 0.386);
+    color: white;
+}
+
+.container button a{
+    text-decoration: none;
+    color: red;
+}
+button a:hover{
+    color: white;
+}

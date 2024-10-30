@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    background-image: url("/img/nurse\ 1.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 100%;
+    min-height: 600px;
+}
+.container1 div {
+    border: 2px solid rgba(244, 84, 84, 0.915);
+    display: block;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: rgb(6, 6, 76);
+    box-shadow: inset 1px 1px 10px rgb(5, 253, 5);
+} 
+.container1 div a{
+    text-decoration: none;
+    color: rgb(238, 72, 72);
+}
+
+.container1 h1:hover{
+    color: rgb(241, 238, 238);
+    background-color: rgba(227, 252, 4, 0.81);
+    border-radius: 5px;
+
+} 
+.container1 button{
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 5px ;
+}
+.container1 button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.container1 button a{
+    text-decoration: none;
+    color: red;
+}
+button a:hover{
+    color: white;
+}
+
+.container2 img{
+    width: 450px;
+    border-radius: 5px;
+}
+/* from here */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .row{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+  }
+  .column {
+    float: left;
+    width: 60%;
+    box-shadow: 5px 5px 5px rgba(69, 67, 67, 0.905);
+    margin-bottom: 16px;
+    margin-left: 90px;
+    padding: 0 0px;
+    display: block;
+  }
+  
+  .card {
+    box-shadow:  10px 10px 10px rgba(15, 15, 15, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  h2{
+    background-color: antiquewhite;
+    color: rgb(122, 4, 4);
+  }
+
+  .name{
+    color: rgb(251, 116, 5);
+  }
+  .img{
+    /* border:2px solid red; */
+    width: 500px;
+    display: block;
+    box-shadow: 2px 2px 2px 2px yellow;
+  }

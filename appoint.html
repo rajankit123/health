@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Tab</title>
+    <link rel="stylesheet" href="/css/appoint.css">
+    <link src="/JS/appoint.js" type="javascript">
+</head>
+
+<body>
+    <h2>Get Appointment of the best doctors of the DivineCare here !</h2>
+    <div class="container">
+        <button><a href="home.html">Go to Home</a></button>
+        <div><a href="#appoint">Request Appointment</a></div>
+    </div>
+    <div class="container1">
+        <div id="appoint">
+            <form id="app" action="http://localhost/myfiles/appoint.php" method="post">
+                <h1>Patient Information!</h1>
+                <h3>Request an appointement with appropriate details.</h3><br>
+
+                <label>Username :</label><br>
+                <input type="text" name="user" id="name" placeholder="Enter Username." required><br><br>
+
+                <label>Reason for the appointement :</label><br>
+                <input type="text" name="reason" id="name" placeholder="Enter your query here." required><br><br>
+
+                <label>Patient Name :</label><br>
+                <input type="text" name="fname" id="name" placeholder="Enter Your Name" required><br><br>
+
+                <label>Patient Age :</label><br>
+                <input type="text" name="age" id="name" placeholder="How old are you?" required><br><br>
+
+                <label>Patient email I'd :</label><br>
+                <input type="email" name="email" id="name" placeholder="Enter your valid email." required><br><br>
+
+                <label>Patient contact:</label><br>
+                <input type="text/number" name="contact" id="name" placeholder="Enter active contact no."
+                    required><br><br>
+
+                <label>Alternate contact:</label><br>
+                <input type="text/number" name="acontact" id="name" placeholder="Enter active contact no."><br><br>
+
+                <label>Doctor Name :</label><br>
+                <input type="text" name="dname" id="name" placeholder="Enter doctor Name" required><br><br>
+
+                <label>Doctor email I'd :</label><br>
+                <input type="email" name="demail" id="name" placeholder="Enter valid email." required><br><br>
+
+                <input type="submit" name="submit" id="submit" value="submit"><br><br>
+            </form>
+
+        </div><!-- appoint div closed -->
+    </div><!-- container div closed -->
+</body>
+
+</html>

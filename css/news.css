@@ -1,0 +1,17 @@
+button{
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 5px ;
+}
+ button:hover{
+    background-color: rgba(0, 0, 255, 0.386);
+    color: white;
+}
+
+button a{
+    text-decoration: none;
+    color: red;
+}
+button a:hover{
+    color: white;
+}

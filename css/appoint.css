@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url("/img/doctor-patient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 600px;
+}
+
+.container div{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.383);
+    font-size: 50px;
+    border: 2px solid rgb(152, 152, 251);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.container div a{
+    text-decoration: none;
+    color: rgb(48, 32, 119);
+}
+
+.container :hover{
+    padding: 0px;
+    color: white;
+    background-color:  rgb(48, 32, 119);
+}
+.container1{
+    /* background-image: url("/img/protective-suit.jpg"); */
+    background-color: beige;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#appoint{
+    width: 100%;
+    min-height:300px;
+    background-color: bisque;
+}
+
+#appoint form{
+    border-radius: 10px;
+    border: 5px solid antiquewhite;
+    background-color: rgba(110, 97, 23, 0.503);
+    width: 60%;
+    font-size: 20px;
+    margin-left: 20%;
+    padding: 5px 5px;
+    margin-top: 15px;
+    margin-bottom: 5%;
+    box-shadow: 2px 2px 15px rgba(245, 95, 95, 0.778);
+}
+#app input,label{
+    margin-left: 40px;
+}
+#name{
+    width: 300px;
+    border: 1px solid rgba(243, 181, 81, 0.656);
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgb(0, 0, 0, 0.3);
+}
+#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: red;
+    color: #0c0c0c;
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.3);
+}
+#submit:hover{
+    color: rgb(236, 236, 244);
+    background-color: rgba(245, 96, 96, 0.509);
+}
+
+label,span{
+    text-shadow: 1px 1px 5px rgba(248, 60, 126, 0.779);
+    color: rgb(49, 2, 2);
+}
+
+h1,h3{
+    text-align: center;
+    color: darkred;
+    text-decoration: underline;
+    font-weight: 800;
+    background-color: rgba(206, 248, 121, 0.402);
+    text-shadow: 20px 2px solid blueviolet;
+}
+h2{
+    background-color: rgb(56, 1, 1);
+    color: rgb(249, 249, 7);
+}
+.container button{
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 5px ;
+}
+.container button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.container button a{
+    text-decoration: none;
+    color: red;
+}

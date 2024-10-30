@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url("/img/hospital.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    min-height: 600px;
+    /* background-color: ; */
+}
+
+.container div{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    border: 2px solid rgb(152, 152, 251);
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+.container div a{
+    text-decoration: none;
+    color: rgb(238, 216, 72);
+}
+
+.container :hover{
+    padding: 0px;
+    color: rgb(249, 125, 125);
+    background-color: rgb(80, 91, 46);
+}
+h2{
+    background-color: rgba(40, 6, 78, 0.243);
+    color: rgb(241, 238, 238);
+    text-align: center;
+}
+span{
+    color: red;
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: #000;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.head{
+    color: yellow;
+    text-decoration: underline;
+}
+
+p{
+    color: green;
+    font-size: 20px;   /* normal font-size: 12px; */
+}

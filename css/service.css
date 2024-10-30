@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px red;
+}
+h1{
+    color: rgb(18, 18, 18);
+    font-weight: 1500;
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px black;
+}
+button{
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 5px ;
+}
+ button:hover{
+    background-color: rgba(0, 0, 255, 0.386);
+    color: white;
+}
+
+button a{
+    text-decoration: none;
+    color: red;
+}
+button a:hover{
+    color: white;
+}
+.serve{
+    background-color: rgba(252, 188, 188, 0.317);
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    
+    
+}
+.container{
+    margin: 10px;
+    margin-left: 55px;
+    margin-top: 35px;
+    background-color: rgba(128, 128, 128, 0.39);
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.914);
+    text-align: justify;
+} 
+.container h3{
+    background-color: rgb(249, 249, 154);
+    width: 80%;
+    box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.902);
+    font-weight: 1500;
+    border-radius: 5px;
+    color: #560505;
+}
+ /* for inner box style */
+
+.num{
+    /* border: 2px solid green; */
+    margin-top: 20px;
+    padding: auto;
+    border-radius: 3px;
+    background-color: rgba(128, 128, 128, 0.7);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.765);
+}
